@@ -15,9 +15,12 @@ const domainGenerator = (arrayP, arrayA, arrayN, arrayE) => {
       }
     }
   }
-  document.getElementById("domainNames").innerHTML = domainsName;
+  document.getElementById("htmldomainnames").innerHTML = domainsName;
+  console.log(domainsName);
 };
 
 window.onload = domainGenerator(pronoun, adj, noun, ending);
 
-domainGenerator(pronoun, adj, noun);
+document.getElementById("btnclear").addEventListener("click", function() {
+  document.getElementById("htmldomainnames").innerHTML = " ";
+});
