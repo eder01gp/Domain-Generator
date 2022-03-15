@@ -1,3 +1,35 @@
+Main funcion: create all the possible domain names for the pre-established words wanted.
+Main structure: call the function when loading the page to go through all the arrays and create all domain names and print them in both the html and console.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Hello World with Vanilla JS
 
 Start coding in 30 seconds by opening this template in gitpod:
